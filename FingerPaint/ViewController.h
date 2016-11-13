@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DrawingViewView;
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet DrawingViewView *whiteBoardView;
 
 @end
 
